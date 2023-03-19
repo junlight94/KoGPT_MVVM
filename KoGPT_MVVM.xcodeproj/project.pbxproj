@@ -50,7 +50,6 @@
 				985618A9DD62BF3F71E45DB5 /* Pods-KoGPT_MVVM.debug.xcconfig */,
 				F9C2C87313BBD4CC5989D4F2 /* Pods-KoGPT_MVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,6 +116,7 @@
 		086DF9F929C6D0D800DEEFA0 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				086DFA0A29C70D3500DEEFA0 /* Entities */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -197,6 +197,13 @@
 			children = (
 			);
 			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		086DFA0A29C70D3500DEEFA0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 		B9257C4EA4B37F75066368B6 /* Frameworks */ = {
