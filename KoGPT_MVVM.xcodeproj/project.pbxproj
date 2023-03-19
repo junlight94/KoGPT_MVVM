@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		086DF9E329C6CEDB00DEEFA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF9E229C6CEDB00DEEFA0 /* AppDelegate.swift */; };
 		086DF9E529C6CEDB00DEEFA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF9E429C6CEDB00DEEFA0 /* SceneDelegate.swift */; };
-		086DF9E729C6CEDB00DEEFA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF9E629C6CEDB00DEEFA0 /* ViewController.swift */; };
-		086DF9EA29C6CEDB00DEEFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086DF9E829C6CEDB00DEEFA0 /* Main.storyboard */; };
 		086DF9EC29C6CEDD00DEEFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086DF9EB29C6CEDD00DEEFA0 /* Assets.xcassets */; };
 		086DF9EF29C6CEDD00DEEFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086DF9ED29C6CEDD00DEEFA0 /* LaunchScreen.storyboard */; };
+		086DFA0529C6D19B00DEEFA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DFA0429C6D19B00DEEFA0 /* LoginViewController.swift */; };
+		086DFA0729C6D1A300DEEFA0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DFA0629C6D1A300DEEFA0 /* MainViewController.swift */; };
+		086DFA0929C6D1B800DEEFA0 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DFA0829C6D1B800DEEFA0 /* AppData.swift */; };
+		77D75701AD7668E248AF78A9 /* Pods_KoGPT_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AB4A9C4BA68A033460D0E8 /* Pods_KoGPT_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		086DF9DF29C6CEDB00DEEFA0 /* KoGPT_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoGPT_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086DF9E229C6CEDB00DEEFA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		086DF9E429C6CEDB00DEEFA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		086DF9E629C6CEDB00DEEFA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		086DF9E929C6CEDB00DEEFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086DF9EB29C6CEDD00DEEFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086DF9EE29C6CEDD00DEEFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		086DF9F029C6CEDD00DEEFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086DFA0429C6D19B00DEEFA0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		086DFA0629C6D1A300DEEFA0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		086DFA0829C6D1B800DEEFA0 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		23AB4A9C4BA68A033460D0E8 /* Pods_KoGPT_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoGPT_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985618A9DD62BF3F71E45DB5 /* Pods-KoGPT_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoGPT_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-KoGPT_MVVM/Pods-KoGPT_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C2C87313BBD4CC5989D4F2 /* Pods-KoGPT_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoGPT_MVVM.release.xcconfig"; path = "Target Support Files/Pods-KoGPT_MVVM/Pods-KoGPT_MVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D75701AD7668E248AF78A9 /* Pods_KoGPT_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0632549DA965C733204F2511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				985618A9DD62BF3F71E45DB5 /* Pods-KoGPT_MVVM.debug.xcconfig */,
+				F9C2C87313BBD4CC5989D4F2 /* Pods-KoGPT_MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		086DF9D629C6CEDB00DEEFA0 = {
 			isa = PBXGroup;
 			children = (
 				086DF9E129C6CEDB00DEEFA0 /* KoGPT_MVVM */,
 				086DF9E029C6CEDB00DEEFA0 /* Products */,
+				0632549DA965C733204F2511 /* Pods */,
+				B9257C4EA4B37F75066368B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,136 @@
 		086DF9E129C6CEDB00DEEFA0 /* KoGPT_MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				086DF9E229C6CEDB00DEEFA0 /* AppDelegate.swift */,
-				086DF9E429C6CEDB00DEEFA0 /* SceneDelegate.swift */,
-				086DF9E629C6CEDB00DEEFA0 /* ViewController.swift */,
-				086DF9E829C6CEDB00DEEFA0 /* Main.storyboard */,
-				086DF9EB29C6CEDD00DEEFA0 /* Assets.xcassets */,
-				086DF9ED29C6CEDD00DEEFA0 /* LaunchScreen.storyboard */,
+				086DF9F629C6CEE600DEEFA0 /* Application */,
+				086DF9F829C6CF6300DEEFA0 /* Utils */,
+				086DF9F729C6CEF400DEEFA0 /* UI */,
+				086DF9F929C6D0D800DEEFA0 /* Domain */,
+				086DF9FA29C6D0E000DEEFA0 /* Infra */,
 				086DF9F029C6CEDD00DEEFA0 /* Info.plist */,
 			);
 			path = KoGPT_MVVM;
+			sourceTree = "<group>";
+		};
+		086DF9F629C6CEE600DEEFA0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				086DF9E229C6CEDB00DEEFA0 /* AppDelegate.swift */,
+				086DF9E429C6CEDB00DEEFA0 /* SceneDelegate.swift */,
+				086DF9ED29C6CEDD00DEEFA0 /* LaunchScreen.storyboard */,
+				086DF9EB29C6CEDD00DEEFA0 /* Assets.xcassets */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		086DF9F729C6CEF400DEEFA0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				086DF9FB29C6D10300DEEFA0 /* Common */,
+				086DF9FC29C6D11E00DEEFA0 /* Login */,
+				086DF9FD29C6D12400DEEFA0 /* Main */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		086DF9F829C6CF6300DEEFA0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				086DFA0829C6D1B800DEEFA0 /* AppData.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		086DF9F929C6D0D800DEEFA0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		086DF9FA29C6D0E000DEEFA0 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Infra;
+			sourceTree = "<group>";
+		};
+		086DF9FB29C6D10300DEEFA0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				086DFA0329C6D16C00DEEFA0 /* ViewModel */,
+				086DFA0229C6D16900DEEFA0 /* View */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		086DF9FC29C6D11E00DEEFA0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				086DF9FF29C6D15200DEEFA0 /* ViewModel */,
+				086DF9FE29C6D14F00DEEFA0 /* View */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		086DF9FD29C6D12400DEEFA0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				086DFA0129C6D16000DEEFA0 /* ViewModel */,
+				086DFA0029C6D15E00DEEFA0 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		086DF9FE29C6D14F00DEEFA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				086DFA0429C6D19B00DEEFA0 /* LoginViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		086DF9FF29C6D15200DEEFA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		086DFA0029C6D15E00DEEFA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				086DFA0629C6D1A300DEEFA0 /* MainViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		086DFA0129C6D16000DEEFA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		086DFA0229C6D16900DEEFA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		086DFA0329C6D16C00DEEFA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		B9257C4EA4B37F75066368B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23AB4A9C4BA68A033460D0E8 /* Pods_KoGPT_MVVM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 086DF9F329C6CEDD00DEEFA0 /* Build configuration list for PBXNativeTarget "KoGPT_MVVM" */;
 			buildPhases = (
+				17EB40AAF8B29B447DD335C7 /* [CP] Check Pods Manifest.lock */,
 				086DF9DB29C6CEDB00DEEFA0 /* Sources */,
 				086DF9DC29C6CEDB00DEEFA0 /* Frameworks */,
 				086DF9DD29C6CEDB00DEEFA0 /* Resources */,
+				8C23F1D817A6C81E3D7B19D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +269,69 @@
 			files = (
 				086DF9EF29C6CEDD00DEEFA0 /* LaunchScreen.storyboard in Resources */,
 				086DF9EC29C6CEDD00DEEFA0 /* Assets.xcassets in Resources */,
-				086DF9EA29C6CEDB00DEEFA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EB40AAF8B29B447DD335C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoGPT_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C23F1D817A6C81E3D7B19D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoGPT_MVVM/Pods-KoGPT_MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoGPT_MVVM/Pods-KoGPT_MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoGPT_MVVM/Pods-KoGPT_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		086DF9DB29C6CEDB00DEEFA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086DF9E729C6CEDB00DEEFA0 /* ViewController.swift in Sources */,
+				086DFA0529C6D19B00DEEFA0 /* LoginViewController.swift in Sources */,
 				086DF9E329C6CEDB00DEEFA0 /* AppDelegate.swift in Sources */,
 				086DF9E529C6CEDB00DEEFA0 /* SceneDelegate.swift in Sources */,
+				086DFA0729C6D1A300DEEFA0 /* MainViewController.swift in Sources */,
+				086DFA0929C6D1B800DEEFA0 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		086DF9E829C6CEDB00DEEFA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				086DF9E929C6CEDB00DEEFA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		086DF9ED29C6CEDD00DEEFA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +459,17 @@
 		};
 		086DF9F429C6CEDD00DEEFA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985618A9DD62BF3F71E45DB5 /* Pods-KoGPT_MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SUMATJC294;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoGPT_MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +487,17 @@
 		};
 		086DF9F529C6CEDD00DEEFA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C2C87313BBD4CC5989D4F2 /* Pods-KoGPT_MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SUMATJC294;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoGPT_MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
